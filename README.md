@@ -2,7 +2,7 @@
 introducción a prototipos en iOS 
 
 ## Arquitectira de las aplicaciones de iOS
-![ios architecture](http://gabo.com.co/pdam/lab-8/lab-8-4.png) <!-- .element width="50%" -->
+<img src="http://gabo.com.co/pdam/lab-8/lab-8-4.png" width="50%">
 
 ## Creación del proyecto
 Para el desarrollo de aplicaciones en iOS, se recomienda usar XCode. Este IDE tiene todo lo necesario para manjear el desarrollo, assets y licencias de las aplicaciones.
