@@ -4,7 +4,7 @@ introducción a prototipos en iOS
 ## Arquitectira de las aplicaciones de iOS
 <img src="http://gabo.com.co/pdam/lab-8/lab-8-4.png" width="50%">
 
-## Creación del proyecto
+## Prototipo de una aplicación de iOS
 Para el desarrollo de aplicaciones en iOS, se recomienda usar XCode. Este IDE tiene todo lo necesario para manjear el desarrollo, assets y licencias de las aplicaciones.
 
 * Abra XCode y seleccione la opción "Tabbed Application" que iniciará una aplicación base con un menu contextual.
@@ -29,5 +29,25 @@ Para el desarrollo de aplicaciones en iOS, se recomienda usar XCode. Este IDE ti
 
 * Ubique el grupo de conexiones llamado "Triggered Segues", sobre el punto negro saldra un icono de +, arraste el icono hasta la tercera vista que se creó, esto hara que el controlador de tabs añada un nuevo tab referenciando a la nueva vista:
 <img src="http://gabo.com.co/pdam/lab-8/lab-8-9.png" width="50%">
+
+* Añada un nuevo elemento de texto en la tercera vista, para esto arrastre un elemento "label" dentro de la tercera vista.
+
+* En el menu lateral en la sección de atributos puede editar la terecera vista para ajustar el icono asignado, intente cambiar el icono y pruebe la aplicación nuevamente en el emulador.
+
+* Repita el proceso pero esta vez añada una vista de navegación "Navigation Controller" para que sea la cuarta opcion del menu. Esto generara otra vista con un listado de opciones por defecto.
+<img src="http://gabo.com.co/pdam/lab-8/lab-8-10.png" width="50%">
+
+* Ahora añada una nueva vista, esta servira como vista de detalle con base en el elemento seleccionado de la vista añadida anteriormente.
+
+* Para vincular el evento de selección del elemento de la lista, seleccione la celda prototipo y con el boton de "control" presionado arraste el mouse hacia la vista de detalle.
+
+## Edición de código Swift
+
+* Desde el menu izquierdo, cree un nuevo archivo swift en la raiz de su proyecto, este archivo sera la logica de la vista de listado de elementos que se creo en el punto anterior.
+<img src="http://gabo.com.co/pdam/lab-8/lab-8-11.png" width="50%">
+
+Complete el código con el ejemplo de la imagen anterior para crear una clase que extienda de UITableViewController
+
+
 
 
