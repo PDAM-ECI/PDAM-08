@@ -37,16 +37,41 @@ Para el desarrollo de aplicaciones en iOS, se recomienda usar XCode. Este IDE ti
 * Repita el proceso pero esta vez añada una vista de navegación "Navigation Controller" para que sea la cuarta opcion del menu. Esto generara otra vista con un listado de opciones por defecto.
 <img src="http://gabo.com.co/pdam/lab-8/lab-8-10.png" width="50%">
 
-* Ahora añada una nueva vista, esta servira como vista de detalle con base en el elemento seleccionado de la vista añadida anteriormente.
+## Edición de código Swift para un listado de elementos
 
-* Para vincular el evento de selección del elemento de la lista, seleccione la celda prototipo y con el boton de "control" presionado arraste el mouse hacia la vista de detalle.
-
-## Edición de código Swift
-
-* Desde el menu izquierdo, cree un nuevo archivo swift en la raiz de su proyecto, este archivo sera la logica de la vista de listado de elementos que se creo en el punto anterior.
+* Desde el menu izquierdo, cree un nuevo archivo Swift (ListViewController.swift) en la raíz de su proyecto, este archivo sera la logica de la vista de listado de elementos que se creo en el punto anterior.
 <img src="http://gabo.com.co/pdam/lab-8/lab-8-11.png" width="50%">
 
 Complete el código con el ejemplo de la imagen anterior para crear una clase que extienda de UITableViewController
+
+* Desde el menu izquierdo, cree un nuevo archivo Swift (ListCell.swift) en la raíz de su proyecto, este archivo será la lógica de la fila del listado de elementos.
+
+<img src="http://gabo.com.co/pdam/lab-8/lab-8-12.png" width="50%">
+
+Complete el código con el ejemplo de la imagen anterior para crear una clase que extienda de UITableViewCell
+
+* Desde la vista de history boar "Main.historyboard" seleccione la celda prototipo, en las opciones de la derecha vaya a a la opcion de Identity Inspector, en esta opcion ubique la casilla de class y dentro de ella escriba el nombre de la clase que creó en el punto anterior, esto asignará la logica a la vista seleccionada.
+
+<img src="http://gabo.com.co/pdam/lab-8/lab-8-13.png" width="50%">
+
+* Desde el mismo menu ubique la opcion de atributos y en la casilla de Identifier ponga el valor "listCell"
+<img src="http://gabo.com.co/pdam/lab-8/lab-8-15.png" width="50%">
+
+* De la misma manera, seleccionando el controlador del listado de elementos, haciendo click en el icono amarillo vincule la vista del controlador con la clase que creo anteriormente: ListViewController.swift
+
+* Añada un elemento de tipo Label a la celda prototipo
+<img src="http://gabo.com.co/pdam/lab-8/lab-8-14.png" width="50%">
+
+* Presionando la tecla "control" arrastre el mouse hasta el archivo swift como se muestra en el siguiente ejemplo
+
+<img src="https://media.giphy.com/media/3og0IDRwEI9MPYxYOs/giphy.gif" width="100%">
+
+* Ahora añadirá el codigo como en el siguiente ejemplo para mostrar 5 filas con numeros
+<img src="http://gabo.com.co/pdam/lab-8/lab-8-16.png" width="50%">
+
+## Resultado final
+<img src="https://media.giphy.com/media/l1KVbF3IGDNncqDzq/giphy.gif" width="100%">
+
 
 
 
