@@ -1,7 +1,7 @@
 # PDAM-08
 introducción a prototipos en iOS 
 
-## Arquitectira de las aplicaciones de iOS
+## Arquitectura de las aplicaciones de iOS
 <img src="http://gabo.com.co/pdam/lab-8/lab-8-4.png" width="50%">
 
 ## Prototipo de una aplicación de iOS
