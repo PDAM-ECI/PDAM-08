@@ -64,7 +64,7 @@ Complete el código con el ejemplo de la imagen anterior para crear una clase qu
 
 * En la parte superior active la vista de edicion con asistente, esto mostrara dos ventanas para editar, a la derecha tendrá la vista de diseño y a la izquierda la vista de código. Asegurese que la ventana de la derecha muestre la clase "ListCell". Seleccione el label creado en el punto anterior y presionando la tecla "control" arrastre el mouse desde la vista de diseño hasta la vista de codigo como se muestra en el siguiente ejemplo.
 
-<img src="https://media.giphy.com/media/3og0IDRwEI9MPYxYOs/giphy.gif" width="100%">
+<img src="https://media.giphy.com/media/l4FGtOsXaa4SdJbK8/giphy.gif" width="100%">
 
 * Ahora añadirá el codigo como en el siguiente ejemplo para mostrar 5 filas con numeros
 <img src="http://gabo.com.co/pdam/lab-8/lab-8-16.png" width="50%">
