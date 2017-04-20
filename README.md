@@ -62,7 +62,7 @@ Complete el código con el ejemplo de la imagen anterior para crear una clase qu
 * Añada un elemento de tipo Label a la celda prototipo
 <img src="http://gabo.com.co/pdam/lab-8/lab-8-14.png" width="50%">
 
-* Presionando la tecla "control" arrastre el mouse hasta el archivo swift como se muestra en el siguiente ejemplo
+* En la parte superior active la vista de edicion con asistente, esto mostrara dos ventanas para editar, a la derecha tendrá la vista de diseño y a la izquierda la vista de código. Asegurese que la ventana de la derecha muestre la clase "ListCell". Seleccione el label creado en el punto anterior y presionando la tecla "control" arrastre el mouse desde la vista de diseño hasta la vista de codigo como se muestra en el siguiente ejemplo.
 
 <img src="https://media.giphy.com/media/3og0IDRwEI9MPYxYOs/giphy.gif" width="100%">
 
