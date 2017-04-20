@@ -64,6 +64,10 @@ Complete el código con el ejemplo de la imagen anterior para crear una clase qu
 
 * En la parte superior active la vista de edicion con asistente, esto mostrara dos ventanas para editar, a la derecha tendrá la vista de diseño y a la izquierda la vista de código. Asegurese que la ventana de la derecha muestre la clase "ListCell". Seleccione el label creado en el punto anterior y presionando la tecla "control" arrastre el mouse desde la vista de diseño hasta la vista de codigo como se muestra en el siguiente ejemplo.
 
+Verifique que la variable que se crea al arrastrar el elemento sea un atributo de la clase, cuando XCode le solicite el nombre del componente use el siguiente: textUserLabel
+
+El proceso anterior es la forma de vincular la vista con el controlador para poder controlar los componentes mediante el código.
+
 <img src="https://media.giphy.com/media/l4FGtOsXaa4SdJbK8/giphy.gif" width="100%">
 
 * Ahora añadirá el codigo como en el siguiente ejemplo para mostrar 5 filas con numeros
