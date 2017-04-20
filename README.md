@@ -70,7 +70,7 @@ Complete el código con el ejemplo de la imagen anterior para crear una clase qu
 <img src="http://gabo.com.co/pdam/lab-8/lab-8-16.png" width="50%">
 
 ## Resultado final
-<img src="https://media.giphy.com/media/l1KVbF3IGDNncqDzq/giphy.gif" width="100%">
+<img src="https://media.giphy.com/media/l1KVbF3IGDNncqDzq/giphy.gif" width="50%">
 
 
 
